@@ -1,4 +1,7 @@
 import React from "react";
+import LogoOK from "../assets/okbr.png";
+import LogoClaro from "../assets/claro.png";
+import LogoPyLadiesRec from "../assets/pyladies_recife_logo.png";
 
 export default function Footer() {
   return (
@@ -84,6 +87,26 @@ export default function Footer() {
                 />
               </svg>
             </a>
+          </div>
+          <div className="">
+            <h6 className="footer-title">apoio & organização</h6>
+            <div className="grid grid-flow-col gap-4">
+              <img
+                className="w-[72px]"
+                src={LogoOK}
+                alt="Logo da Open Knowledge Brasil"
+              />
+              <img
+                className="w-[80px] self-center"
+                src={LogoClaro}
+                alt="Logo da Open Knowledge Brasil"
+              />
+              <img
+                className="w-[72px]"
+                src={LogoPyLadiesRec}
+                alt="Logo da Open Knowledge Brasil"
+              />
+            </div>
           </div>
         </nav>
       </footer>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <div className="Navbar">
-      <div className="navbar bg-base-400">
+      <div className="navbar justify-between bg-base-400">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -36,9 +36,9 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        <div className="navbar-center ">
+        <div className="navbar-center">
           <a className="btn btn-ghost self-stretch text-xl" href="/">
-            Open Data Day
+            Open Data Day Recife 2024
           </a>
         </div>
       </div>

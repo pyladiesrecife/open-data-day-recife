@@ -2,9 +2,11 @@ import React from "react";
 
 function Schedule() {
   return (
-    <div className="container items-center m-2">
+    <div className="container items-center m-4">
       {" "}
-      <h2 className="text-xl font-semibold text-center">Programação</h2>
+      <h2 className="text-2xl font-semibold text-center text-accent py-2">
+        Programação
+      </h2>
       <div className="overflow-x-auto">
         <table className="table">
           <thead>
@@ -35,43 +37,49 @@ function Schedule() {
               <td>Giselle Woolley</td>
             </tr>{" "}
             <tr>
-              <td>11h30 - 12h</td>
+              <td>11h10 - 11h30</td>
               <td>
                 {" "}
+                Do Conhecimento aos Negócios: A Descoberta do Mercado por Meio
+                dos Dados Educacionais
+              </td>
+              <td>Eric de Lima e Victor Amarante</td>
+            </tr>
+            <tr>
+              <td>11h30 - 12h</td>
+              <td>
                 Vamos dar uma folga ao Titanic e usar os dados da educação
                 brasileira ?
               </td>
               <td>Abílio Nogueira</td>
-            </tr>{" "}
+            </tr>
             <tr>
               <td>12h - 12h50</td>
               <td> Coffee Break + Networking</td>
-              <td></td>
-            </tr>{" "}
+              <td>---</td>
+            </tr>
             <tr>
               <td>12h50 - 13h20</td>
               <td> Utilização de Inteligência Artificial em Pernambuco</td>
               <td>Representantes IP.rec</td>
-            </tr>{" "}
+            </tr>
             <tr>
               <td>13h20 - 13h50</td>
               <td>
-                {" "}
                 Data Science aplicada a Energias Renováveis com Open Data e
                 Python
               </td>
               <td>Francisco Debierne</td>
-            </tr>{" "}
+            </tr>
             <tr>
               <td>13h50 - 14h50</td>
               <td>
-                {" "}
                 Mesa Redonda: Acesso à água, urbanização desenfreada e mudanças
                 climáticas. Como os dados podem nos ajudar a viver em uma cidade
                 melhor?
               </td>
               <td>Stefany Silva, Adalberto Correia, Valdir Moura</td>
-            </tr>{" "}
+            </tr>
             <tr>
               <td>13h50 - 14h50</td>
               <td> 14h50 - 15h</td>

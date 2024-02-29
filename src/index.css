@@ -17,6 +17,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bkgImg {
+  background-image: url("../assets/banner.png");
+}
 body {
   margin: 0;
   /* display: flex;
