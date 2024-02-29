@@ -1,6 +1,6 @@
 export default function Location() {
   return (
-    <div className="location container ">
+    <div className="location  m-4 flex flex-col w-full">
       <h2 className="text-2xl font-semibold text-primary text-center py-2">
         Informações do Evento
       </h2>

@@ -3,11 +3,11 @@ import ODD from "../assets/odd-logo.png";
 
 export default function Hero() {
   return (
-    <>
+    <div className="xl:flex">
       <img
         src={Banner}
         alt="banner do Open Data Day 2024"
-        className="object-cover"
+        className="object-cover xl:w-1/2"
       />
       <div className="hero">
         <div className="hero-overlay bg-auto bg-accent-content bg-opacity-80"></div>
@@ -40,6 +40,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

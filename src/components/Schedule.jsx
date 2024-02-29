@@ -2,7 +2,7 @@ import React from "react";
 
 function Schedule() {
   return (
-    <div className="container items-center m-4">
+    <div className="items-center m-4 flex flex-col w-full">
       {" "}
       <h2 className="text-2xl font-semibold text-center text-accent py-2">
         Programação
