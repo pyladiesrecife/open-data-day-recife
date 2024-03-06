@@ -17,7 +17,7 @@ export default function Hero() {
             className="max-w-sm rounded-lg shadow-2xl bg-white"
             alt="Logo do Open Data Day Recife"
           />
-          <div className="container ">
+          <div className="container pl-3">
             <h2 className="text-4xl font-bold ">O que é o Open Data Day</h2>
             <p className="py-6">
               É uma iniciativa internacional criada e apoiada da Open Knowledge
